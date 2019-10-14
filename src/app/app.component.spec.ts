@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'datepicker520-bug'`, () => {
+  it(`should have as title 'datepicker512-working'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('datepicker520-bug');
+    expect(app.title).toEqual('datepicker512-working');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('datepicker520-bug app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('datepicker512-working app is running!');
   });
 });
