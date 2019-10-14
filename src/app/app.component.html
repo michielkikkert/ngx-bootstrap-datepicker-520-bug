@@ -1,12 +1,12 @@
 <h1 style="color: red;">
-    ngx-bootstrap (version 5.2.0)
+    ngx-bootstrap (version 5.2.0) - BROKEN
 </h1>
 
 <h3>Datepicker - Date string used: {{ dateString }}<br><br></h3>
-<input bsDatepicker [formControl]="testControl" style="color: red">
+<input bsDatepicker [formControl]="testControl" style="color: red; font-size: 20px;">
 
 <br><br>
-Angular date pipe: {{ testControl.value | date: 'short' }} (expect to be the same as datepicker string)
+Angular date pipe: {{ testControl.value | date: 'shortDate' }} (expect to be the same as datepicker string)
 <br><br>
 
 Date to string: {{dateToString}} <br><br>
